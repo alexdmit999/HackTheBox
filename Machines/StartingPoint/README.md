@@ -13,7 +13,7 @@ nmap -p- --min-rate=1000 -T4 10.10.10.27
 
 <em><b>```-T4```</b></em> задает временной интервал для отправки пакетов на хост. Задается в интервале [1-5], чем больше число, тем быстрее скорость отправки. 
 В этом случае команда будет иметь следующий вывод:
-```bash
+```
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-14 18:20 MSK
 Warning: 10.10.10.27 giving up on port because retransmission cap hit (6).
 Nmap scan report for 10.10.10.27
